@@ -1,7 +1,13 @@
+// import LoginPage from "./pages/Login";
+import RegisterPage from "./pages/Register";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-semibold underline text-red-700">
-      Hello worlds!
-    </h1>
+    <>
+      <div className="flex justify-center min-h-screen items-center">
+        {/* <LoginPage/> */}
+        <RegisterPage/>
+      </div>
+    </>
   )
 }
